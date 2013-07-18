@@ -1,0 +1,112 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+
+body {background: url('../img/cream_pixels.png');}
+	
+p {color: #343434;
+font-family: $helvetica;
+}
+
+
+header {
+@include outer-container;	
+width: 100%;
+height: 8em;
+position: relative;
+
+	img{
+	@include span-columns(4);
+	@include shift(4);
+	position :absolute;
+	top: 0.5em;
+
+	}
+}
+
+section {
+@include outer-container;
+font-family: 'PlayBold';
+@include position(relative, 4em 0 0 0);
+
+	span {
+	@include button(shiny, #fff);
+    @include span-columns(2);
+    @include shift(2.7);
+    text-align: center;
+    font-size: 1.4em;
+  	margin-top: 2em;
+  	margin-bottom: 2em;
+    color: #000;
+    position:relative
+  }
+	p {
+	@include span-columns(6);
+		@include shift(3);
+		position: absolute;
+		top:10em;
+	}
+}
+	footer {
+	@include outer-container;
+	@include position(relative, 21em 0 0 0);
+    width: 100%;
+    height: 3em;
+    border-top: solid 1px #000;
+
+
+		ul {
+		@include span-columns(8);
+		@include shift(2);
+		text-align: center;
+		}
+
+		ul li {
+		display: inline;
+		}
+
+		ul li a {
+		text-decoration:none;
+		font-size: 80%;
+		font-family: $helvetica;
+		color: #000;
+		margin: 4em;
+		}
+	}
+
+/*==  modal icons ===============*/
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+[class*="entypo-"]:before { font-family: 'entypo', sans-serif; }
+.main-aside { float: none !important; }
+
+
+/* actual styles to make it work */
+#tertiary { clear: right; }
+.social-icons {
+  list-style: none;
+  padding:0px 0 0 32px;
+  li {
+    float: left;
+    a {
+      padding: 0 0.5em;
+      margin: auto;
+      font-size: 2em;
+      text-decoration: none;
+      color: #5c5c5c;
+      text-shadow:
+        1px 1px 0 rgba(0,0,0, 0.4),
+        1px 1px 2px rgba(0,0,0, 0.4);
+      &:hover {
+        text-shadow:
+          1px 1px 0 rgba(0,0,0, 0.6),
+          1px 1px 4px rgba(0,0,0, 0.4);
+          color: #e46016;
+      }
+    }
+  }
+  span { display: none; }
+}
+
+
+

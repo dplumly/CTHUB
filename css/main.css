@@ -1,0 +1,163 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: url("../img/cream_pixels.png"); }
+
+p {
+  color: #343434;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+header {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 8em;
+  position: relative; }
+  header:before, header:after {
+    content: " ";
+    display: table; }
+  header:after {
+    clear: both; }
+  header img {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin-left: 34.11922%;
+    position: absolute;
+    top: 0.5em; }
+    header img:last-child {
+      margin-right: 0; }
+
+section {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'PlayBold';
+  position: relative;
+  top: 4em; }
+  section:before, section:after {
+    content: " ";
+    display: table; }
+  section:after {
+    clear: both; }
+  section span {
+    border: 1px solid #9c9c9c;
+    border-bottom: 1px solid #838383;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 0 0 white;
+    color: #333333;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(50%, lightgrey), color-stop(50%, #bcbcbc), color-stop(100%, #c1c1c1));
+    background-image: -webkit-linear-gradient(top, white 0%, lightgrey 50%, #bcbcbc 50%, #c1c1c1 100%);
+    background-image: linear-gradient(to bottom,white 0%, lightgrey 50%, #bcbcbc 50%, #c1c1c1 100%);
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px white;
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    margin-left: 23.03047%;
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #000;
+    position: relative; }
+    section span:hover:not(:disabled) {
+      cursor: pointer;
+      background-color: #f0f0f0;
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f0f0f0), color-stop(50%, #c5c5c5), color-stop(50%, #b0b0b0), color-stop(100%, #b4b4b4));
+      background-image: -webkit-linear-gradient(top, #f0f0f0 0%, #c5c5c5 50%, #b0b0b0 50%, #b4b4b4 100%);
+      background-image: linear-gradient(to bottom,#f0f0f0 0%, #c5c5c5 50%, #b0b0b0 50%, #b4b4b4 100%); }
+    section span:active:not(:disabled) {
+      box-shadow: inset 0 0 20px 0 #8b8b8b, 0 1px 0 white; }
+    section span:disabled {
+      opacity: 0.5;
+      cursor: not-allowed; }
+    section span:last-child {
+      margin-right: 0; }
+  section p {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-left: 25.58941%;
+    position: absolute;
+    top: 10em; }
+    section p:last-child {
+      margin-right: 0; }
+
+footer {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 21em;
+  width: 100%;
+  height: 3em;
+  border-top: solid 1px #000; }
+  footer:before, footer:after {
+    content: " ";
+    display: table; }
+  footer:after {
+    clear: both; }
+  footer ul {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    text-align: center; }
+    footer ul:last-child {
+      margin-right: 0; }
+  footer ul li {
+    display: inline; }
+  footer ul li a {
+    text-decoration: none;
+    font-size: 80%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    margin: 4em; }
+
+/*==  modal icons ===============*/
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif; }
+
+.main-aside {
+  float: none !important; }
+
+/* actual styles to make it work */
+#tertiary {
+  clear: right; }
+
+.social-icons {
+  list-style: none;
+  padding: 0px 0 0 32px; }
+  .social-icons li {
+    float: left; }
+    .social-icons li a {
+      padding: 0 0.5em;
+      margin: auto;
+      font-size: 2em;
+      text-decoration: none;
+      color: #5c5c5c;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4), 1px 1px 2px rgba(0, 0, 0, 0.4); }
+      .social-icons li a:hover {
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6), 1px 1px 4px rgba(0, 0, 0, 0.4);
+        color: #e46016; }
+  .social-icons span {
+    display: none; }
